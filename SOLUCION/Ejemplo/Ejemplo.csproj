@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+      <NoWarn>$(NoWarn);1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Transversal.Util.BaseDapper\Transversal.Util.BaseDapper.csproj" />
+    <ProjectReference Include="..\Transversal.Util.BaseDBUp\BaseDBUp\BaseDBUp.csproj" />
+    <ProjectReference Include="..\Transversal.Util.Eventos\Transversal.Util.Eventos.csproj" />
+    <ProjectReference Include="..\Transversal.Util.Controller\Transversal.Util.Controller.csproj" />
+    <ProjectReference Include="..\Transversal.Util.Negocio\Transversal.Util.Negocio.csproj" />
+  </ItemGroup>
+
+</Project>

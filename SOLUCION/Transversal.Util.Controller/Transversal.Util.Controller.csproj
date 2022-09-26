@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Transversal.Util.BaseDapper\Transversal.Util.BaseDapper.csproj" />
+    <ProjectReference Include="..\Transversal.Util.Eventos\Transversal.Util.Eventos.csproj" />
+    <ProjectReference Include="..\Transversal.Util.Negocio\Transversal.Util.Negocio.csproj" />
+  </ItemGroup>
+
+</Project>
